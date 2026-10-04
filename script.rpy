@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+7﻿# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -392,6 +392,9 @@ label start:
     show chartetteimage at left with dissolve
     chartette "You didn't have to scare me too you know!"
     mc "Sorry..."
+    chartette "Okay then, You should go to the fountain, I'm pretty sure the head maid is waiting there."
+    mc "Okay, I'll get moving" #storage scene needed
+    
 
 
 
