@@ -16,6 +16,7 @@ define artepollo = Character("Arte and Pollo")
 define banica = Character("Banica Conchita")
 define chartette = Character("Chartette Langley")
 define leonhart = Character("Leonhart Avadonia")
+define ney = Character("Ney Phutapie") # remember me to make an image of Ney
 
 
 #flags
@@ -394,6 +395,18 @@ label start:
     mc "Sorry..."
     chartette "Okay then, You should go to the fountain, I'm pretty sure the head maid is waiting there."
     mc "Okay, I'll get moving" #storage scene needed
+    scene storageroom
+    mc "Okay.. Let's see here.."
+    "*After cleaning it up*"
+    mc "There we go!"
+    scene library #add an library please
+    show neyimage at left with dissolve #dont forget her too!
+    ney "Oh, Hey! What is your name?"
+    mc "It's [mc_name]!"
+    ney "Such an beautiful name, [mc_name]. Can you help me out on putting these books back up?"
+    mc "Yes sure! No problem!"
+    "*After a bit you and Ney finish cleaning up and putting the books in place*"
+    ney "Thank you so much, [mc_name]!"
     
 
 
