@@ -361,6 +361,37 @@ label start:
     show roomtwozerofive
     mc "Uuughh Today's been a looooong day.."
     "*You go to sleep*"
+    scene black
+    "*Suddenly you wake up in the middle of a hallway*" #looping looping looping the rooms
+    scene hallwayanorth # hallwayanorth hallwaybeast hallwaycwest hallwaydsouth
+    mc "Hello?!"
+    "*No response*"
+    "*You open the door, miraculously you get onto another hallway"
+    scene hallwaybeast
+    "*You keep going through doors*"
+    scene hallwaycwest
+    ".."
+    scene hallwaydsouth
+    "..."
+    scene hallwayanorth
+    mc "Huh!? I'm in the same room once again!"
+    scene hallwaybeast
+    mc "Eh!? Whoever's messing around with me it isn't funny!"
+    scene hallwaycwest
+    "...."
+    scene hallwaydsouth
+    ".."
+    scene hallwayanorth
+    mc "What if I just jump through a window?"
+    "*You jump out of a window*"
+    scene black
+    mc "AAAAAAAAAAAAAAAA!"
+    scene roomtwozerofive
+    mc "AAA!!"
+    "*Chartette screams too*"
+    show chartetteimage at left with dissolve
+    chartette "You didn't have to scare me too you know!"
+
 
 
     return
