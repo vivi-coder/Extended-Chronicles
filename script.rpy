@@ -391,6 +391,7 @@ label start:
     "*Chartette screams too*"
     show chartetteimage at left with dissolve
     chartette "You didn't have to scare me too you know!"
+    mc "Sorry..."
 
 
 
