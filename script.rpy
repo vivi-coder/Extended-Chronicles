@@ -49,11 +49,11 @@ label start:
 
     unknown "Are you the new guy?"
     "Are you the one the message said I would first meet at this time?"
-    $ mc_name = renpy.input("Yes, correct. I am, My name is Allen, And you?", default="Alexia").strip()   #i dont know what else the default name should be so this looks good, gotta
-    mc "I am [mc_name]"
-    allen "So, shall I show you around?"
+    $ mc_name = renpy.input("Yes, correct. I am, My name is Allen, And you?", default="Alexia").strip()   #i dont know what else the default name should be so this looks good
+    mc "My name is [mc_name]."
+    allen "Great, shall I show you around?"
     mc "Yes, thank you!"
-    allen "Okay then. Follow me."
+    allen "Okay then. Follow me. I shall inform the headmaid later."
 
     scene hallwayanorth
 
