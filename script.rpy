@@ -3,6 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+
+
 #question 11 means question 1 out of the first
 #question 12 means question 1 out of the second
 define mc = Character("[mc_name]")
@@ -27,7 +29,7 @@ default opened_message = False
 
 # The game starts here.
 
-
+# idk how to add that video here
 label start:
 
     stop music fadeout(2.0)
@@ -407,7 +409,10 @@ label start:
     mc "Yes sure! No problem!"
     "*After a bit you and Ney finish cleaning up and putting the books in place*"
     ney "Thank you so much, [mc_name]!"
-    
+    mc "No problem!"
+    show chartetteimage at right with dissolve
+    chartette "Looks like you guys are having fun~"
+    ney "Shut up Chartette!"
 
 
 
