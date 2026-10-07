@@ -1,6 +1,6 @@
 # 📖 Extended Chronicles
 
-[![Discord](https://img.shields.io/discord/1536439824225931386?color=7289da&logo=discord&logoColor=white)](https://discord.gg/Kn2cC6vwTU)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white)](https://discord.gg/Kn2cC6vwTU)
 
 > A Visual Novel project based on **The Evillious Chronicles**.
 
