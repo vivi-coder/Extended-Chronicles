@@ -143,7 +143,9 @@ label start:
     scene roomtwozerofive
     mc "So this is my room.."
     "*You lay down in your bed*"
+    scene black
     "*Next day*"
+    scene roomtwozerofive
     mc "Ugh, this bed is atleast better than the floor atleast"
     "*You go to your closet grab your new servant outfit and check your roster*"
     mc "Go to Mariam Phutapie on the first floor with a door that says HEADMAID.. Do your duties..."
@@ -188,7 +190,7 @@ label start:
     chartette "Nothing, why?"
     allen "I heard my name, that's why."
     chartette "I was asking questions to the new servant. What's his name anyways?"
-    allen "Don't make him resign like the others, okay? It is [mc_name]"
+    allen "Don't make him resign like the others, okay? And also his name is: [mc_name]"
     chartette "What a nice name! But hey! I don't make people resign THAT easily!"
     chartette "Right?"
 
@@ -231,7 +233,7 @@ label start:
         "Open the message":
             $ opened_message = True
             
-            "You open the letter. 'To Riliane, I am very sick and I can not proceed to serve you, Signed, Allen Avadonia'"
+            "You open the letter. 'To Riliane, The cook just burned your food, Signed, Allen Avadonia'"
 
         "Leave it alone":
             "You decide not to open the letter."
@@ -251,6 +253,7 @@ label start:
         riliane "Hm, Good, Thank you."
     "*After Riliane reads it.*"
     riliane "Okay. Got it. Now leave."
+    "*She whispers something to Allen*"
     "*You quickly leave and go inform Allen in Hallway A*"
     scene hallwayanorth
     show allenimage with dissolve
@@ -276,7 +279,7 @@ label start:
     headmaid "Go help Allen and Chartette out! They are putting flowers! Go help them!"
     mc "I will."
     headmaid "But before you do that, what even is your name?"
-    mc "It is [mc_name]"
+    mc "My name is [mc_name]"
     headmaid "[mc_name].. Okay then. Now go! Don't stay there and do nothing!"
     hide mariamimage with dissolve
     "*The headmaid left*"
@@ -413,6 +416,18 @@ label start:
     show chartetteimage at right with dissolve
     chartette "Looks like you guys are having fun~"
     ney "Shut up Chartette!"
+    "*Chartette while giggling walks away*"
+    hide chartetteimage
+    ney "Ugh.. She's so annoying, right?"
+    menu:
+        "I agree":
+            ney "Great you agree with me."
+        
+        "No, she's not":
+            ney "Hmph."
+        
+        "Sometimes":
+            ney "Sometimes!? It's 'always'!"
 
 
 
