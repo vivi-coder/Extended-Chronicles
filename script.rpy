@@ -399,13 +399,15 @@ label start:
     chartette "You didn't have to scare me too you know!"
     mc "Sorry..."
     chartette "Okay then, You should go to the fountain, I'm pretty sure the head maid is waiting there."
-    mc "Okay, I'll get moving" #storage scene needed
+    mc "Okay, I'll get moving"
     scene storageroom
     mc "Okay.. Let's see here.."
     "*After cleaning it up*"
     mc "There we go!"
-    scene library #add an library please
-    show neyimage at left with dissolve #dont forget her too!
+    mc "I wonder if they have a library.."
+    "*You leave and find your way into the library*"
+    scene library
+    show neyimage at left with dissolve
     ney "Oh, Hey! What is your name?"
     mc "It's [mc_name]!"
     ney "Such an beautiful name, [mc_name]. Can you help me out on putting these books back up?"
