@@ -412,7 +412,7 @@ label start:
     unknown "Oh, Hey! I haven't seen you around here, what is your name?"
     mc "My name is [mc_name]."
     unknown "Such an beautiful name, [mc_name]. Can you help me out on putting these books back up?"
-    mc "Yes sure! No problem!"
+    mc "Yes, sure. No problem!"
     "*After a bit you and her finish cleaning up and putting the books in place*"
     unknown "Thank you so much, [mc_name]!"
     mc "No problem!"
